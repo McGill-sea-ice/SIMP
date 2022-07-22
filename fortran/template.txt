@@ -1,0 +1,53 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!               Subroutine for computing a the quantities for              !
+!                             a single time step.                          !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+subroutine NNPS
+
+    !!!                         Module to include:                       !!!
+    use globals
+
+    !!!              Variables use in the current routine:               !!!
+    implicit none
+
+    !!!                        Local variables:                          !!!
+
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !!!                      Begining of subroutine:                     !!!
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+    !Call the desired nnps algorithm
+
+
+
+
+    CONTAINS
+
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !             Subprograme to calculate the distance and the            !
+    !                     interacting pair of particles                    !
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+    subroutine direct_find
+
+    !!!                         Module to include:                       !!!
+    use globals
+    use data_variables
+        
+    !!!              Variables use in the current routine:               !!!
+    !   ntotal : Total number of particle to use                        [in]
+
+    implicit none
+    
+    !!!                        Local variables:                          !!!
+    !   i, j : index for do loops
+
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !!!                      Begining of subroutine:                     !!!
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+    !First task
+
+    end subroutine direct_find
+
+end subroutine NNPS
