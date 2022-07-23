@@ -121,7 +121,9 @@ sigma_II = 0.5 * ( np.sqrt( (sigma_11-sigma_22) ** 2
 epsilon_I  = 0.5 * (epsilon_11 + epsilon_22 )
 epsilon_II = 0.5 * (np.sqrt( (epsilon_22 - epsilon_11) ** 2 
              + 4 * epsilon_12 ** 2))
-             
+
+#Get velocity amplitude
+v = np.sqrt(vx**2 +vy**2)
 
 #Loop until stop
 cdt = 1
