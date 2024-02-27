@@ -10,6 +10,7 @@ present model are still under development or have been developped for
 reasearch purposes (and remain in the model for flexibility in the 
 computation), but are no more used.
 
+ **_NOTE:_** If the code is used as-is for research, please refer to it using the following: [![DOI](https://zenodo.org/badge/516838742.svg)](https://zenodo.org/doi/10.5281/zenodo.10714496) 
 
 ## Getting Started
 
@@ -310,7 +311,6 @@ initialize.f90, wind_forcing.f90 and water_drag.f90.
 ## Contributing
 
 Everyone can contribute, but to do so please contact Prof. Bruno Tremblay at bruno.tremblay@mcgill.ca.
-If the code is used as is please refer to it using the following DOI: 10.5281/zenodo.10714497
 
 
 ## Versioning
