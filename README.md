@@ -8,7 +8,7 @@ dynamics in varying domain. A description of the program subroutine tested
 are showed in (Marquis et al. 2022). However, some of the subroutine in the
 present model are still under development or have been developped for
 reasearch purposes (and remain in the model for flexibility in the 
-computation), but are no more used. 
+computation), but are no more used.
 
 
 ## Getting Started
@@ -310,11 +310,12 @@ initialize.f90, wind_forcing.f90 and water_drag.f90.
 ## Contributing
 
 Everyone can contribute, but to do so please contact Prof. Bruno Tremblay at bruno.tremblay@mcgill.ca.
+If the code is used as is please refer to it using the following DOI: 10.5281/zenodo.10714497
 
 
 ## Versioning
 
-For now no versionning has been implemented.
+For now only the initial release v1.0.0 exist (the version developped and used by Oreste Marquis for its master).
 
 ## Authors
 
